@@ -1,0 +1,78 @@
+建立环境变量SDBCDIR指向sdbc目录
+
+在sdbc目录下建立：
+lib：库目录
+include：头文件
+string：字符串函数和日期函数。
+crypto：加密校验实用程序
+ds：数据结构实用程序
+conf：配置管理
+socket：socket应用程序
+pack：模板程序
+sqli：数据库接口
+scsrv:SDBC ——服务器接口
+sccli：SDBC客户端接口
+utility:SDBC实用程序 
+dau:DAU实用程序
+sdbc:SDBC的顶层模块，引用数据库接口及网络接口。
+
+json:json实用程序,json-c-0.9
+
+lib目录下，库文件的构成：
+lib目录被连接到$HOME/lib,软件迁移时,请先连接这个目录到合适位置。
+
+libscbase.a(系统最基本的库文件):string,conf,pack,ds,ctrpto(加密、校验工具).
+	相关头文件：strproc.h(这是整个系统最基本的头文件),
+	  其他加密校验程序自行加载： crc.h,crc32.h,md5.h,bignum.h......
+			datejul.h(准儒略历日期时间处理系统,include strproc.h)	
+			pack.h(模板系统，include datejul.h)
+			tree.h(平衡二叉树)
+			dw.h(文件中的digit-word 映射表,include tree.h)
+			multi_hash.h:hash表
+			Binary_search.h:通用折半查找
+			enigma.h:加密.
+			quicklz.h:压缩
+			SRM.h(include sqli.h,json_sdbc.h)
+			json_sdbc.h:JSON 与 SDBC转换 
+		
+libsc.a(网络操作库文件):socket,sccli,scsrv.
+			sc.h(include enigma.h,strproc.h)
+			sccli.h(include sc.h)
+			scsrv.h(include sc.h)
+//以下两个库单独打包。
+libsqli.a(SQL访问接口,独立于数据库 ):sqli,dau.
+	  相关头文件： sqli.h(include pack.h,sqlora.h)
+			DAU.h(include SRM.h,sqli.h)
+
+libsdbc.a(顶层库，网络数据库安全访问的顶层模块):sdbc
+			sdbc.h(include scsrv.h,sqli.h)
+
+libsqlora8.a(OCI接口程序):sqlora
+	  相关头文件： sqlora.h
+libjson.a:json-c-0.9
+
+配置：
+定义环境变量SDBCDIR为本目录
+本目录下各子目录可以单独编译，但要注意引用的层次关系。
+
+JSON的配置：
+cd $SDBCDIR/json-c-0.9
+执行 ./configure
+然后执行 make 
+成功后， cd .libs; cp * $SDBCDIR/lib
+
+应用开发：
+可以在任何用户或目录之下，但需要指明SDBCDIR
+makefile:
+CFLAGS = -I$(SDBCDIR)/include
+LIBS = -L$SDBCDIR/lib
+
+迁移说明：
+在scsrv/tpool.c 使用了epoll机制，这可能使得本软件只适用于linux，。
+作为线程池服务器的tpool.c，只好用其他机制重新构建。
+
+开源包：
+google-perftools-1.5.tar.gz
+其中的 tcmalloc组件，用于线程池服务器，可提高malloc的并发效率。
+在64位系统安装时，还需要libunwind-0.99.tar.gz包。
+

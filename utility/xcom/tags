@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+CA	xcomd.c	/^	char CA[180];$/;"	m	struct:log_s	file:
+CLIENT	event_c.c	1;"	d	file:
+CLIENT	f_cli.c	11;"	d	file:
+FreeVar	midware.c	/^void FreeVar(void *p)$/;"	f
+FreeVar	xcom.c	/^FreeVar(char *p)$/;"	f
+FreeVar	xcomd.c	/^void FreeVar(void *P)$/;"	f
+Function	midware.c	/^srvfunc Function[]={$/;"	v
+Function	xcomd.c	/^srvfunc Function[]={$/;"	v
+GetFileSize	f_srv.c	/^static int GetFileSize(fd)$/;"	f	file:
+MIN	transfer.c	6;"	d	file:
+NZ_Get_File	f_cli.c	/^int NZ_Get_File(T_Connect *connect,char *local_file,char *remote_file)$/;"	f
+NZ_Get_File_Msg	f_cli.c	/^int NZ_Get_File_Msg(T_Connect *connect,$/;"	f
+NZ_Put_File	f_cli.c	/^int NZ_Put_File(T_Connect *connect,char *local_file,char *remote_file)$/;"	f
+NZ_Put_File_Msg	f_cli.c	/^int NZ_Put_File_Msg(T_Connect *connect,$/;"	f
+N_Get_File_Size	f_cli.c	/^static int N_Get_File_Size(fd)$/;"	f	file:
+Object_s	midware.c	/^struct Object_s {$/;"	s	file:
+Object_type	midware.c	/^T_PkgType Object_type[]={$/;"	v
+REPEAT	f_cli.c	15;"	d	file:
+REPEAT	f_srv.c	13;"	d	file:
+SERVER	event_s.c	1;"	d	file:
+T_Object	midware.c	/^typedef struct Object_s T_Object;$/;"	t	file:
+Transfer	transfer.c	/^Transfer(T_Connect *client,T_NetHead *NetHead)$/;"	f
+Z_GetFile	f_srv.c	/^int Z_GetFile(T_Connect *connect,T_NetHead *NetHead)$/;"	f
+Z_PutFile	f_srv.c	/^int Z_PutFile(T_Connect *connect,T_NetHead *NetHead)$/;"	f
+cancel_passwd	srvlogin.c	/^int cancel_passwd(T_Connect *conn, T_NetHead *NetHead)$/;"	f
+change_passwd	srvlogin.c	/^int change_passwd(T_Connect *conn, T_NetHead *NetHead)$/;"	f
+clilogin	cli_login.c	/^clilogin(T_Connect *conn,T_NetHead *NetHead)$/;"	f
+clilogin	clilogin.c	/^clilogin(T_Connect *conn,T_NetHead *NetHead)$/;"	f
+clilogin	clilogin_xc.c	/^clilogin(T_Connect *conn,T_NetHead *NetHead)$/;"	f
+crypt_c	srvlogin.c	/^int crypt_c(T_Connect *conn,char *str,int i)$/;"	f
+devid	xcomd.c	/^	char devid[17];$/;"	m	struct:log_s	file:
+e_output	xcom.c	/^void e_output(char *str)$/;"	f
+event_catch	event_c.c	/^int event_catch(T_Connect *conn,int event_no)$/;"	f
+event_put	event_s.c	/^int event_put(T_Connect *conn,int Eno)$/;"	f
+family	family_old.c	/^const unsigned int  family[]={$/;"	v
+from_server	transfer.c	/^static int from_server(T_Connect *client,T_NetHead *NetHead)$/;"	f	file:
+getca	cli_login.c	/^void getca(char *ca)$/;"	f
+getca	clilogin_xc.c	/^void getca(char *ca)$/;"	f
+getlist	getlist.c	/^int getlist(T_Connect *conn,T_NetHead *NetHead)$/;"	f
+getls	getls.c	/^int getls(T_Connect *conn,T_NetHead *NetHead,char *path,FILE *outfile)$/;"	f
+label	xcomd.c	/^	char label[51];$/;"	m	struct:log_s	file:
+log_s	xcomd.c	/^struct log_s {$/;"	s	file:
+login_type	xcomd.c	/^T_PkgType login_type[]={$/;"	v
+logview	clilogin_xc.c	/^T_PkgType logview[]={$/;"	v
+longaddr	transfer.c	9;"	d	file:
+m_getfile	getls.c	/^int m_getfile(T_Connect *conn,T_NetHead *NetHead,char *path)$/;"	f
+main	filels.c	/^int main(int argc,char *argv[])$/;"	f
+main	midware.c	/^int main(int ac,char *av[])$/;"	f
+main	t.c	/^main()$/;"	f
+main	xcom.c	/^main(argc,argv)$/;"	f
+main	xcomd.c	/^main(int ac,char *av[])$/;"	f
+myshowid	midware.c	/^static char myshowid[200];$/;"	v	file:
+myshowid	xcom.c	/^static char myshowid[160];$/;"	v	file:
+myshowid	xcomd.c	/^static char myshowid[100];$/;"	v	file:
+net_login	midware.c	/^int net_login(T_Connect *conn, T_NetHead *NetHead)$/;"	f
+net_login	srvlogin.c	/^int net_login(T_Connect *conn, T_NetHead *NetHead)$/;"	f
+net_login	xcomd.c	/^int net_login(T_Connect *conn,T_NetHead *NetHead)$/;"	f
+netinit	midware.c	/^void netinit(conn,head)$/;"	f
+netinit	xcomd.c	/^void netinit(T_Connect *connect ,T_NetHead *NetHead)$/;"	f
+nextMTU	midware.c	/^	int nextMTU;        \/\/ used as next MTU$/;"	m	struct:Object_s	file:
+nextfml	midware.c	/^	char nextfml[172];$/;"	m	struct:Object_s	file:
+nextobj	midware.c	/^	int nextobj;        \/\/ used as next D_NODE$/;"	m	struct:Object_s	file:
+object_no	midware.c	/^	int object_no;$/;"	m	struct:Object_s	file:
+phex	xcom.c	/^void phex(char *title,char *str,int i)$/;"	f
+port	midware.c	/^	char port[21];		\/\/ server service port$/;"	m	struct:Object_s	file:
+putlist	putls.c	/^void putlist(T_Connect *conn,char *str)$/;"	f
+quit	midware.c	/^void quit(int n)$/;"	f
+quit	xcomd.c	/^void quit(int n)$/;"	f
+s_getfile	getls.c	/^int s_getfile(T_Connect *conn,FILE *inputfile)$/;"	f
+s_output	getls.c	/^void s_output(char *str,FILE *fd,char *localpath)$/;"	f
+sendfile	sendfile.c	/^int sendfile(T_Connect *conn)$/;"	f
+server	midware.c	/^	char server[81]; 	\/\/ server host name $/;"	m	struct:Object_s	file:
+set_showid	midware.c	/^void set_showid(void *ctx)$/;"	f
+set_showid	xcomd.c	/^void set_showid(void *ctx)$/;"	f
+sh2reg	putls.c	/^int sh2reg(char *str)$/;"	f
+showhex	f_cli.c	/^static void showhex(int level,char *title,char *str,int i)$/;"	f	file:
+showhex	xcomd.c	/^void showhex(int level,char *title,char *str,int i)$/;"	f
+strins	strsubst.c	/^char * strins(char *str,char c)$/;"	f
+strrtok	putls.c	/^char *strrtok(src,beg,tok)$/;"	f
+strsubst	strsubst.c	/^char *strsubst(from,j,str)$/;"	f
+today	xcomd.c	/^long today;$/;"	v
+write_passwd	srvlogin.c	/^int write_passwd(T_SQL_Connect *SQL_Connect,char *zyrid,char *passwd)$/;"	f

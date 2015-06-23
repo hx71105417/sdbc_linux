@@ -1,0 +1,54 @@
+#Ver 1.0.1 2003.4.8 Developed by Y.R.L
+#@="REVOKE ALL"
+#A="DELETE"
+#B="UPDATE"
+#C="UPDATE,DELETE"
+#D="INSERT"
+#E="INSERT,DELETE"
+#F="INSERT,UPDATE"
+#G="INSERT,UPDATE,DELETE"
+#H="SELECT"
+#I="SELECT,DELETE"
+#J="SELECT,UPDATE"
+#K="SELECT,UPDATE,DELETE"
+#L="SELECT,INSERT"
+#M="SELECT,INSERT,DELETE"
+#N="SELECT,INSERT,UPDATE"
+#O="SELECT,INSERT,UPDATE,DELETE"
+#
+#----------------------------------------------------------|
+%    表名    \  用户名| dict | oper | query |     备注     |
+#----------------------------------------------------------|
+#|cron                 |  O   | @    |   @   |批命令表      |
+|tuxdev               |  O   | J    |   J   |TUX设备认证表 |
+|tuxuser              |  O   | J    |   J   |TUX人员认证表 |
+|tuxcontex            |  O   | O    |   H   |TUX上下文表   |
+|tvmctx               |  O   | O    |   @   |TVM上下文表   |
+|station              |  O   | J    |   H   |车站表        |
+|train                |  O   | O    |   H   |车次表        |
+|stop_station         |  O   | O    |   H   |停靠站表      |
+|pre_seat_index       |  H   | O    |   H   |母表索引      |
+|pre_seat             |  H   | O    |   H   |母表          |
+|seat                 |  H   | O    |   H   |席位表        |
+|seat_remant          |  H   | O    |   H   |余额表        |
+|dev_shift            |  H   | N    |   H   |设备班次表    |
+|dev_shift_his        |  H   | N    |   H   |设备历史班次表|
+|dev_bill             |  H   | N    |   H   |窗口票据表　  |
+|sell                 |  H   | N    |   H   |售票存根　　  |
+|TRAIN_PRICE          |  O   | H    |   H   |阶梯票价表    |
+|tjrb 	              |  H   | O    |   H   |小型统计表    |
+#|tj18d                |  H   | N    |   H   |标准统计表    |
+#----------------------------------------------------------|
+|PATTERN_COL          |  O   | O    |   H   |模板修正表    |
+|meta_train           |  O   | O    |   H   |计划车次表元数据|
+|meta_quota           |  O   | O    |   H   |计划定员表元数据|
+|meta_cars            |  O   | O    |   H   |计划编组表元数据|
+|meta_seat_plan       |  O   | O    |   H   |席位计划表元数据|
+|trn_mmnt             |  O   | O    |   H   |时刻表元数据  |
+|tmp_mmnt             |  O   | O    |   H   |临时时刻表元数据|
+|ttype                |  O   | O    |   O   |测试表        |
+|DG10_STATION         |  O   | O    |   O   |TBS站名表    |
+|DG10_CITY            |  O   | O    |   O   |TBS城市表        |
+|DL10_TRAINSTOPINFO   |  O   | O    |   O   |调图文件加载中间表|
+#----------------------------------------------------------|
+!

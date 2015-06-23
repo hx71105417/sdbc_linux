@@ -1,0 +1,4 @@
+ora <<!
+@perm
+exit
+!

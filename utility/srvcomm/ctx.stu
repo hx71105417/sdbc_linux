@@ -1,0 +1,7 @@
+extern T_PkgType CTX_tpl[];
+typedef struct {
+	INT4	ctx_id;
+	char	DEVID[17];
+	INT64	usetime;
+} CTX_stu;
+

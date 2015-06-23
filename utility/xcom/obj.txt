@@ -1,0 +1,11 @@
+#测试变换family，xcomd与xcom的family不同，因此它们不能互相通信，必须通过midware转发。
+#1 192.168.38.195|xcomd|0|0|F~~~~zj111EpGetmm1M7F7Fp0SBWAQmndsC3BN3n7SEd2dl0MkI9B9llxfLCJQonegEm9ntlExRuF11KadTtWA5VxWAqTY1eCq70MXewSQ7rFBochnX2yngBNrD8xb5gDimKkwSnni0ApSq794QdcQewojQcM3Rvlj7KRMzzc2j|
+#2 192.168.38.195|sqlsrv|0|0||
+#3 192.168.38.195|11355|0|0||
+
+1 localhost|sdbc|0|0||
+2 localhost|11050|5|0||
+3 localhost|11355|0|0||
+4 localhost|10055|0|0||
+5 localhost|11455|0|0||
+

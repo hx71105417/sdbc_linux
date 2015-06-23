@@ -1,0 +1,4 @@
+TABDESC=/home/sdbc/dict/tj18d.desc
+1=2++4
+5=XB2,1
+XB1,6=.,XB1,5+\-1,XB1,6

@@ -1,0 +1,40 @@
+DATABASEAUTHFILE=$(HOME)/config/database.auth
+KEYFILE=$HOME/config/KEY.txt
+DATABASE CRCTC
+DBLABEL tj18d
+SKIP 4
+COLNUM 33
+tjdate 		date(year to day)
+unit 		char(8)
+tabname		char(8)
+flg  		int4
+dat1 		int8
+dat2 		int8
+dat3 		int8
+dat4 		int8
+dat5 		int8
+dat6 		int8
+dat7 		int8
+dat8 		int8
+dat9 		int8
+dat10 		int8
+dat11 		int8
+dat12 		int8
+dat13 		int8
+dat14 		int8
+dat15 		int8
+dat16 		int8
+dat17 		int8
+dat18 		int8
+dat19 		int8
+dat20 		int8
+dat21 		int8
+dat22 		int8
+dat23 		int8
+dat24 		int8
+dat25 		int8
+dat26 		int8
+dat27 		int8
+dat28 		int8
+dat29 		int8
+

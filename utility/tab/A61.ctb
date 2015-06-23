@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>中铁快运快递产品经营收入统计日报表(按收入科目分类)</title>
+<style>
+table { 
+	border-collapse: collapse ;
+	border : 1px solid #999999 ;
+	empty-cells : show ;
+	table-layout : auto ;
+	font-size: 12px;
+}
+
+td { 
+	border-collapse: collapse ;
+	border : 1px solid #999999 ; 
+	empty-cells : show ;
+	font-family : 宋体;   
+}
+
+th { 
+	border-collapse: collapse ;
+	border : 1px solid #999999 ; 
+	empty-cells : show ;
+	font-family : 宋体; 
+	background-color: #E6E6E6;
+}
+
+body,select,input,textarea {
+	font-family: 仿宋_GB2312,仿宋,宋体;
+	font-size: 15px;
+}
+
+
+table.hidden , td.hidden ,tr.hidden { 
+	border-collapse: collapse ;
+	border : 0px solid #FF0000 ;
+}
+</style>
+<style>
+.auto {overflow: auto;  height: 30px; width: 90px; clip: rect( ); padding-top: 10px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px} 
+</style>
+<style>
+.to {overflow: auto;  width: 120px; clip: rect( ); padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px} 
+</style>
+</head>
+
+<body>
+<div align="center"> 
+  <p><strong><font size="4">中铁快运快递产品经营收入统计日报表(按收入科目分类)</font></strong></p>
+  <p><font size="2" face="宋体">$10-------至$10-------</font></p>
+  <p align="right"><font size="2" face="宋体">表 号:日报:A-6-1<br>
+    计量单位: 万元</font></p>
+  <p align="left"><font size="2" face="宋体">单位:总公司</font></p>
+</div>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="122" rowspan="4"><div align="center"> <div class="to"> 
+        <div align="center"><font size="2"><strong>分公司</strong></font></div>
+      </div></td>
+    <td colspan="3" rowspan="2"><div align="center"><strong>经营收入合计</strong></div>
+      </td>
+    <td height="28" colspan="14"> <div align="center"><strong>快递包裹主营业务收入</strong></div></td>
+    <td colspan="3" rowspan="2"><div align="center"><strong>保价费</strong></div></td>
+    <td colspan="3" rowspan="2"> <div align="center"><strong>包装费</strong></div></td>
+  </tr>
+  <tr> 
+    <td colspan="5"><div align="center"><strong>小计</strong></div></td>
+    <td height="20" colspan="3"> 
+      <div align="center"><strong>快递包裹铁路运费</strong></div></td>
+    <td colspan="3"> <div align="center"><strong>快递业务收入</strong></div></td>
+    <td colspan="3"><div align="center"><strong>其中：保险费</strong></div></td>
+  </tr>
+  <tr> 
+    <td width="92" height="25"> <div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="4"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+    <td width="92"><div align="center">当日</div></td>
+    <td colspan="2"><div align="center">月累计</div></td>
+  </tr>
+  <tr> 
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+    <td height="27">实际完成</td>
+    <td width="92">月计划</td>
+    <td>实际完成</td>
+    <td width="92">比日历进度±</td>
+    <td width="94">同比±%</td>
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+    <td>实际完成</td>
+    <td width="92">实际完成</td>
+    <td width="92">同比±%</td>
+  </tr>
+{
+  <tr> 
+    <td bgcolor="#CAE4FF"> <div align="left">%0------------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+    <td><div class="auto"> %12---------</div></td>
+  </tr>
+}
+</table>
+<p align="right"><font size="2" face="宋体">$Y--年$m月$d日$H点$M</font></p>
+<p></p>
+</body>
+</html>
